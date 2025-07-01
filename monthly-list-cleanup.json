@@ -209,27 +209,15 @@
     "description": "Remove column Tag value"
   },
   {
-    "op": "commons/column-move",
-    "columnName": "New tag",
-    "index": 0,
-    "description": "Move column New tag to position 0"
-  },
-  {
-    "op": "commons/column-move",
-    "columnName": "Old subject",
-    "index": 0,
-    "description": "Move column Old subject to position 0"
-  },
-  {
-    "op": "commons/column-move",
-    "columnName": "Old tag",
-    "index": 0,
-    "description": "Move column Old tag to position 0"
-  },
-  {
-    "op": "commons/column-move",
-    "columnName": "Subject id",
-    "index": 0,
-    "description": "Move column Subject id to position 0"
+    "op": "core/column-reorder",
+    "columnNames": [
+      "Subject id",
+      "Old tag",
+      "Old subject",
+      "New tag",
+      "New subject",
+      "id.loc link"
+    ],
+    "description": "Reorder columns"
   }
 ]
